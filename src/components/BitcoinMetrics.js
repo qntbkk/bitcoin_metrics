@@ -3,12 +3,12 @@ import {
   TrendingUp,
   TrendingDown,
   Activity,
-  Square,
+  Box,
   Zap,
   Clock,
   DollarSign,
   BarChart3,
-  Pickaxe,
+  Hammer,
   Users,
   Award,
   Calculator,
@@ -265,7 +265,7 @@ const BitcoinMetrics = () => {
     <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
       <div className="flex items-center mb-4">
         <div className="p-3 rounded-lg bg-indigo-500">
-          <Square size={24} className="text-white" />
+          <Box size={24} className="text-white" />
         </div>
         <h3 className="text-lg font-semibold text-gray-900 ml-3">
           Recent Blocks
@@ -382,7 +382,7 @@ const BitcoinMetrics = () => {
             <StatCard
               title="Block Subsidy"
               value={`${bitcoinData.blockSubsidy} BTC`}
-              icon={Pickaxe}
+              icon={Hammer}
               color="bg-orange-500"
               subtitle="Fixed reward"
             />
@@ -416,7 +416,7 @@ const BitcoinMetrics = () => {
             <StatCard
               title="Current Block Height"
               value={formatNumber(bitcoinData.blockHeight)}
-              icon={Square}
+              icon={Box}
               color="bg-blue-500"
               subtitle="Latest block number"
             />
