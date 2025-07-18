@@ -331,7 +331,7 @@ const BitcoinMetrics = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Bitcoin Network Metrics
+            Bitcoin Network Metrics by Tony Tran
           </h1>
           <p className="text-gray-600">
             Real-time Bitcoin network statistics, mining metrics, and price data
